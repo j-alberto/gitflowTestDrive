@@ -11,3 +11,9 @@
     `git flow release start releaseName`
 ## finish
     `git flow release finish -F --push --pushtag --noff-master`
+
+# Hotfixes
+## create
+    `git flow hotfix start`
+## finish
+    `git flow hotfix finish -F --push --nonobackmerge`
