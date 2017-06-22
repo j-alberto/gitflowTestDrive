@@ -10,7 +10,7 @@
 ## create
     `git flow release start releaseName`
 ## finish
-    `git flow release finish -F --push --pushtag --noff-master`
+    `git flow release finish -F --push --pushtag --noff-master --nonobackmerge`
 
 # Hotfixes
 ## create
